@@ -103,4 +103,6 @@ def get_random_hex16(array_length: int=1, block_size: int=1):
 
 
 if '__main__' == __name__:
-    print(get_random_hex16(100))
+    print(get_random_uint8(10))
+    print(get_random_uint16(10))
+    print(get_random_hex16(10, block_size=2))
