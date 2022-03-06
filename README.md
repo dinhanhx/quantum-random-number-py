@@ -10,6 +10,8 @@
 
 A simple (totally native) Python 3 API for [ANU QRNG API](https://qrng.anu.edu.au/contact/api-documentation/). 
 
+Please use [new API from ANU QRNG](https://quantumnumbers.anu.edu.au/documentation) with API keys. [Python example](https://gist.github.com/cqtsma2/27af54ffddd6ababd114d9f642517611).
+
 ## Which functions **are** available?
 
 For each function exists in [ANU QRNG API](https://qrng.anu.edu.au/contact/api-documentation/), there is a Python function.
@@ -39,6 +41,7 @@ You can read the file. It's very simple.
 ## Note
 
 - **Do not** use this code for cryptography implementation.
+- **Do not** use this code to send many requests. Instead of doing that, use [the new API](https://quantumnumbers.anu.edu.au/documentation).
 
 
 
