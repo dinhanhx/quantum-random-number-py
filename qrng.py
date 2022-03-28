@@ -1,3 +1,6 @@
+"""
+Author: dinhanhx
+"""
 import requests
 
 def construct_link(array_length: int = 1,
